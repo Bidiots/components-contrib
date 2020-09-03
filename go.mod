@@ -27,6 +27,7 @@ require (
 	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b
 	github.com/coreos/go-oidc v2.1.0+incompatible
+	github.com/dapr/components-contrib v0.9.113
 	github.com/dapr/dapr v0.4.1-0.20200228055659-71892bc0111e
 	github.com/denisenkom/go-mssqldb v0.0.0-20191128021309-1d7a30a10f73
 	github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f
@@ -48,7 +49,7 @@ require (
 	github.com/jackc/pgx/v4 v4.6.0
 	github.com/json-iterator/go v1.1.8
 	github.com/mitchellh/mapstructure v1.3.2 // indirect
-	github.com/nats-io/gnatsd v1.4.1
+	github.com/nats-io/gnatsd v1.4.1 // indirect
 	github.com/nats-io/go-nats v1.7.2
 	github.com/nats-io/nats-streaming-server v0.17.0 // indirect
 	github.com/nats-io/nats.go v1.9.1
@@ -85,7 +86,4 @@ require (
 	k8s.io/client-go v0.17.0
 )
 
-replace (
-	github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.0+incompatible
-	k8s.io/client => github.com/kubernetes-client/go v0.0.0-20190928040339-c757968c4c36
-)
+replace github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.0+incompatible
